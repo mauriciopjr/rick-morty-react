@@ -1,0 +1,49 @@
+.header {
+    font-size: 24px;
+    font-family: 'Bebas Neue', 'Roboto', sans-serif;
+    background-color: #202020;
+}
+
+.menu-hamburguer {
+    display: none;
+}
+/* https://drive.google.com/file/d/1eJypaSgX_m66xgwHKrX4yu6j-SYfrfgC/view */
+.menu-options {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    justify-content: center;
+}
+
+.menu-options li {
+    padding: 20px 40px;
+}
+
+.menu-options li a {
+    text-decoration: none;
+    color: #f4f4f4;
+
+}
+
+.menu-options li:hover {
+    background-color: #494949;
+}
+
+@media (max-width: 570px) {
+    .menu-hamburguer {
+        display: block;
+        padding: 16.5px 40px;
+        text-align: left;
+    }
+
+    .menu-options {
+        display: none;
+    }
+
+    .menu-options.active {
+        display: flex;
+        flex-direction: column;
+    }
+}
