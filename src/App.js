@@ -1,13 +1,12 @@
-import "./App.css";
+import './App.css';
+import HeaderResponsive from './Components/HeaderResponsive';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="header">
-        hello header
-      </header>
-    </div>
-  )
+    return (
+        <div className="App">
+            <HeaderResponsive />
+        </div>
+    );
 }
 
 export default App;
