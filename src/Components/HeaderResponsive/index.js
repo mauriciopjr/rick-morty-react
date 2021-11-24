@@ -16,7 +16,7 @@ function HeaderResponsive() {
             </div>
             <ul className={`menu-options${active ? ' active' : '' }`}>
                 <li><a href="/">Home</a></li>
-                <li><a href="/">Personagens</a></li>
+                <li><a href="/personagens">Personagens</a></li>
                 <li><a href="/">Episódios</a></li>
                 <li><a href="/">Sobre</a></li>
             </ul>
