@@ -1,0 +1,33 @@
+.personagem-container {
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.full-info-data-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.full-info-data-container img {
+    margin-right: 40px;
+    height: 450px;
+    width: 450px;
+}
+
+.info-data-container {
+    text-align: left;
+}
+
+.info-data-container p {
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+}
+
+.info-data-container div {
+    margin-bottom: 10px;
+}
